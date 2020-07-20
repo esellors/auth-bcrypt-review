@@ -1,0 +1,1 @@
+select puppygram_user_id, username from puppygram_user;
