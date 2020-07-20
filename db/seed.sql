@@ -5,7 +5,7 @@ create table puppygram_user (
   puppygram_user_id serial primary key,
   username varchar(15),
   hash varchar(500),
-  isAdmin boolean
+  is_admin boolean
 );
 
 create table puppygram_puppy (
@@ -15,7 +15,7 @@ create table puppygram_puppy (
   puppy_img_url varchar(500)
 );
 
-insert into puppygram_user (username, hash, isAdmin)
+insert into puppygram_user (username, hash, is_admin)
 values 
   ('dogluvr13', 'aas98fh9498qhgruqqsfh98h8q94h38hasf8h9qw48', false),
   ('tammyhazit', '98h5g9h9eh98h4f8qh49hq84hg0q438hg0834hg08q', false);
